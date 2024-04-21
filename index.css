@@ -1,0 +1,53 @@
+body {
+    background-image: url('https://t4.ftcdn.net/jpg/04/04/40/49/240_F_404404954_WGYZtTwswIrXnJl6qVeEFK5UWPFflVB8.jpg');
+    /* Assuming your image is in an "images" folder */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 97vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    padding: 20px;
+    background-color: transparent;
+    margin: 20px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 4rem;
+    color: rgb(186, 128, 128);
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+p {
+    font-size: 2rem;
+    color: #99ceaa;
+}
